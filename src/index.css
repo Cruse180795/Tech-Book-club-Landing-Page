@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+    --inter-font: "Inter", sans-serif;
+    --martian-font: "Martian Mono", monospace;
+
+    --color-neutral-0: hsl(0, 0%, 100%);
+    --color-neutral-100: hsl(17, 41%, 97%);
+    --color-neutral-200: hsl(17, 12%, 89%);
+    --color-neutral-700: hsl(195, 23%, 28%);
+    --color-neutral-900: hsl(194, 78%, 11%);
+
+    --color-light-salmon-50: hsl(23, 100%, 97%);
+    --color-light-salmon-100: hsl(22, 100%, 91%);
+    --color-light-salmon-500: hsl(22, 99%, 72%);
+
+    --color-glow: hsla(196, 46%, 73%, 1);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("assets/fonts/inter/Inter-VariableFont_opsz\,wght.woff2");
+    font-display: swap;
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Martian Mono";
+    src: url("assets/fonts/martianMono/MartianMono-VariableFont_wdth\,wght.woff2");
+    font-display: swap;
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body {
+    font-family: var(--inter-font);
+}
