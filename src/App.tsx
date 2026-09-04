@@ -1,3 +1,5 @@
+import ReadTogether from "./components/sections/ReadTogether";
+
 export default function App() {
   return (
     <>
@@ -5,10 +7,8 @@ export default function App() {
         <h1>Header section</h1>
       </header>
 
-      <main className="space-y-16 my-16 md:space-y-20 md:my-20 lg:my-30 lg:space-y-30">
-        <section className="bg-red-500">
-          <h2>Read Together Section</h2>
-        </section>
+      <main className="space-y-16 my-16 md:space-y-20 md:my-20 lg:my-30 lg:space-y-30 bg-neutral-0">
+        <ReadTogether />
 
         <section className="bg-lime-500">
           <h2>Not Your Average Book Club Section</h2>

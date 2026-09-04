@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-    --inter-font: "Inter", sans-serif;
-    --martian-font: "Martian Mono", monospace;
+    --font-inter: "Inter", sans-serif;
+    --font-martian: "Martian Mono", monospace;
 
     --color-neutral-0: hsl(0, 0%, 100%);
     --color-neutral-100: hsl(17, 41%, 97%);
@@ -15,6 +15,17 @@
     --color-light-salmon-500: hsl(22, 99%, 72%);
 
     --color-glow: hsla(196, 46%, 73%, 1);
+
+    /* Custom test values */
+    --text-34: 34px;
+    --text-50: 50px;
+
+    --tracking-tight-1: -0.5px;
+    --tracking-tight-2: -1px;
+    --tracking-tight-3: -2px;
+
+    --leading-130: 130%;
+    --leading-140: 140%;
 }
 
 @font-face {
@@ -34,5 +45,9 @@
 }
 
 body {
-    font-family: var(--inter-font);
+    font-family: var(--font-inter);
+}
+
+.readTogetherListItem {
+    @apply text-xl leading-140 tracking-tight-1 flex items-center gap-x-3.5 text-neutral-700;
 }
