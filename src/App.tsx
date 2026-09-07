@@ -1,5 +1,5 @@
 import ReadTogether from "./components/sections/ReadTogether";
-
+import MembershipOptions from "./components/sections/MembershipOptions";
 export default function App() {
   return (
     <>
@@ -18,9 +18,7 @@ export default function App() {
           <h2>Reading Journey Section</h2>
         </section>
 
-        <section className="bg-yellow-500">
-          <h2>Membership Options Section</h2>
-        </section>
+        <MembershipOptions />
       </main>
 
       <footer>Footer section</footer>
