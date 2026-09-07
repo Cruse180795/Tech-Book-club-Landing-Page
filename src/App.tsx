@@ -1,5 +1,7 @@
 import ReadTogether from "./components/sections/ReadTogether";
 import MembershipOptions from "./components/sections/MembershipOptions";
+import Testimonial from "./components/sections/Testimonial";
+
 export default function App() {
   return (
     <>
@@ -19,6 +21,8 @@ export default function App() {
         </section>
 
         <MembershipOptions />
+
+        <Testimonial />
       </main>
 
       <footer>Footer section</footer>

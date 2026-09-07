@@ -49,6 +49,15 @@ body {
     font-family: var(--font-inter);
 }
 
+blockquote p {
+    quotes: "\0022" "\0022";
+}
+
+blockquote p::before,
+blockquote p::after {
+    content: "\0022";
+}
+
 .readTogetherListItem {
     @apply text-xl leading-140 tracking-tight-1 flex items-center gap-x-3.5 text-neutral-700;
 }
