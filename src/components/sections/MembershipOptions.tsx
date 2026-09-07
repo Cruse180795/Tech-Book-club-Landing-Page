@@ -5,7 +5,10 @@ import MembershipCardButton from "../ui/MembershipCardButton";
 
 export default function MembershipOptions() {
   return (
-    <section className="px-4 space-y-6 md:space-y-10 lg:space-y-16 md:px-8 lg:px-58.75 container mx-auto">
+    <section
+      className="px-4 space-y-6 md:space-y-10 lg:space-y-16 md:px-8 lg:px-58.75 container mx-auto"
+      id="MembershipOptions"
+    >
       {/** Stacked on mobile, wraps on tablet, in a row on desktop */}
       <h2 className="text-neutral-900 font-martian font-semibold text-34 leading-130 tracking-tight-2 md:text-50 lg:text-center">
         Membership options

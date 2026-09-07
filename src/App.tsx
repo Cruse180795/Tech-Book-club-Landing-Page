@@ -1,6 +1,7 @@
 import ReadTogether from "./components/sections/ReadTogether";
 import MembershipOptions from "./components/sections/MembershipOptions";
 import Testimonial from "./components/sections/Testimonial";
+import Footer from "./components/sections/Footer";
 
 export default function App() {
   return (
@@ -25,7 +26,7 @@ export default function App() {
         <Testimonial />
       </main>
 
-      <footer>Footer section</footer>
+      <Footer />
     </>
   );
 }
