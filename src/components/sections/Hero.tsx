@@ -14,11 +14,11 @@ export default function Hero() {
 
   return (
     <header
-      className="px-4 pt-6 pb-20 space-y-12 bg-light-salmon-50 md:px-8 md:pt-8 lg:px-33.75 lg:space-y-20 relative overflow-hidden "
+      className="px-4 pt-6 pb-20  bg-light-salmon-50 md:px-8 md:pt-8 lg:px-33.75  relative overflow-hidden "
       id="hero"
     >
       {/** Larger screen wrapper */}
-      <div className="container mx-auto">
+      <div className="container mx-auto space-y-12 lg:space-y-20">
         {/** Glow effect */}
         <div
           aria-hidden="true"
