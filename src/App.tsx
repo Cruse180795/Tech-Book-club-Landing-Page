@@ -1,5 +1,6 @@
 import Hero from "./components/sections/Hero";
 import ReadTogether from "./components/sections/ReadTogether";
+import ReadingJourney from "./components/sections/ReadingJourney";
 import MembershipOptions from "./components/sections/MembershipOptions";
 import Testimonial from "./components/sections/Testimonial";
 import Footer from "./components/sections/Footer";
@@ -16,9 +17,7 @@ export default function App() {
           <h2>Not Your Average Book Club Section</h2>
         </section>
 
-        <section className="bg-blue-500">
-          <h2>Reading Journey Section</h2>
-        </section>
+        <ReadingJourney />
 
         <MembershipOptions />
 

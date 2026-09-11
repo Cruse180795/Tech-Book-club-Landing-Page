@@ -71,6 +71,10 @@ blockquote p::after {
     background-image: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
 }
 
+#ReadingJourney {
+    background-image: url("assets/images/pattern-light-bg.svg");
+}
+
 #MembershipOptions {
     scroll-margin-top: 20px;
 }
