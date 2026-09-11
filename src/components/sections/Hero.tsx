@@ -13,12 +13,9 @@ export default function Hero() {
   };
 
   return (
-    <header
-      className="px-4 pt-6 pb-20  bg-light-salmon-50 md:px-8 md:pt-8 lg:px-33.75  relative overflow-hidden "
-      id="hero"
-    >
-      {/** Larger screen wrapper */}
-      <div className="container mx-auto space-y-12 lg:space-y-20">
+    <header className=" bg-light-salmon-50 relative overflow-hidden" id="Hero">
+      {/**  wrapper */}
+      <div className="px-4 pt-6 pb-20 container mx-auto space-y-12 md:px-8 md:pt-8 lg:space-y-20 lg:px-0 lg:max-w-292.5 ">
         {/** Glow effect */}
         <div
           aria-hidden="true"

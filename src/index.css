@@ -61,13 +61,13 @@ blockquote p::after {
     content: "\0022";
 }
 
-#hero {
+#Hero {
     background-image: url("assets/images/pattern-light-bg.svg");
     background-size: cover;
     background-position: center;
 }
 
-#hero h1 {
+#Hero h1 {
     background-image: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
 }
 
@@ -79,7 +79,7 @@ blockquote p::after {
     scroll-margin-top: 20px;
 }
 
-#footer {
+#Footer {
     background-image: url("assets/images/pattern-dark-bg.svg");
 }
 

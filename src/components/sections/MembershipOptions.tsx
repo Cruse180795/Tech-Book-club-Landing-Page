@@ -6,7 +6,7 @@ import MembershipCardButton from "../ui/MembershipCardButton";
 export default function MembershipOptions() {
   return (
     <section
-      className="px-4 space-y-6 md:space-y-10 lg:space-y-16 md:px-8 lg:px-58.75 container mx-auto"
+      className="px-4 space-y-6 md:space-y-10 lg:space-y-16 md:px-8 lg:px-0 lg:max-w-242.5 container mx-auto"
       id="MembershipOptions"
     >
       {/** Stacked on mobile, wraps on tablet, in a row on desktop */}

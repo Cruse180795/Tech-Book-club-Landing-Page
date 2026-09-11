@@ -6,7 +6,7 @@ import CheckedBoxIcon from "../icons/CheckedBoxIcon";
 
 export default function ReadTogether() {
   return (
-    <section className="px-4 space-y-10 md:px-8 lg:flex lg:items-center lg:gap-x-20 lg:space-y-0 lg:px-33.75 container mx-auto">
+    <section className="px-4 space-y-10 md:px-8 lg:flex lg:items-center lg:gap-x-20 lg:space-y-0 lg:px-0 lg:max-w-292.5 container mx-auto">
       {/** On desktop right hand column - stacked on mobile, tablet & desktop */}
       <div className="space-y-6 md:space-y-8.5 lg:order-2">
         <h2 className="text-neutral-900 font-martian font-semibold text-34 leading-130 tracking-tight-2 md:text-50 md:text-balance lg:text-pretty">

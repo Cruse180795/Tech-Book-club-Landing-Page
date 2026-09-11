@@ -6,7 +6,7 @@ import TechLogos from "../../assets/images/logos-tech.svg";
 
 export default function NotYourAverageBookClub() {
   return (
-    <section className="px-4 md:px-8 lg:px-33.75 container mx-auto space-y-10 lg:flex lg:space-y-0 lg:items-center lg:gap-x-20">
+    <section className="px-4 md:px-8 lg:px-0 lg:max-w-292.5 container mx-auto space-y-10 lg:flex lg:space-y-0 lg:items-center lg:gap-x-20">
       {/** Left Hand Desktop Column */}
       <div className="space-y-6 lg:max-w-132.5">
         <h2 className="text-neutral-900 font-martian font-semibold text-34 leading-130 tracking-tight-3 md:text-50 md:pr-10 lg:pr-0 relative">

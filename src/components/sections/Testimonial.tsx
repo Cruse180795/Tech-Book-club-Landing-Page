@@ -2,7 +2,7 @@ import StarIcon from "../icons/StarIcon";
 
 export default function Testimonial() {
   return (
-    <section className="px-4 space-y-8 md:px-8 lg:px-58.75 container mx-auto">
+    <section className="px-4 space-y-8 md:px-8 lg:px-0 lg:max-w-242.5 container mx-auto">
       {/** Stars */}
       <div className="flex items-center gap-x-1.5 lg:justify-center">
         {[...Array(5)].map((_, i) => (
