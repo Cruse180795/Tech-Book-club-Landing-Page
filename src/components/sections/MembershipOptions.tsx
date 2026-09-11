@@ -29,7 +29,7 @@ export default function MembershipOptions() {
             <MembershipCardFeatures features={["1 book/month", "Online forums"]} />
 
             {/** Does Nothing */}
-            <MembershipCardButton label="Subscrbe now" />
+            <MembershipCardButton label="Subscribe now" />
           </div>
         </div>
 
@@ -52,7 +52,7 @@ export default function MembershipOptions() {
             <MembershipCardFeatures features={["2 books/month", "Virtual meetups"]} />
 
             {/** Does Nothing */}
-            <MembershipCardButton label="Subscrbe now" className="relative z-10" />
+            <MembershipCardButton label="Subscribe now" className="relative z-10" />
           </div>
         </div>
 
